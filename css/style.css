@@ -5,12 +5,12 @@
   background: #e8e8e8
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #fb5496
+  background: #9794fb
 }
 ::-webkit-scrollbar-thumb {
-  background-image: -webkit-linear-gradient(45deg, #ffbd84, #ff1f8e);
-  background-image: -o-linear-gradient(45deg, #ffbd84, #ff1f8e);
-  background-image: linear-gradient(45deg, #ffbd84, #ff1f8e)
+  background-image: -webkit-linear-gradient(45deg, #beb2f2, #9794fb);
+  background-image: -o-linear-gradient(45deg, #beb2f2, #9794fb);
+  background-image: linear-gradient(45deg, #beb2f2, #9794fb)
 }
 ::-moz-selection {
   background: rgba(166, 175, 189, .3)
@@ -18,6 +18,8 @@
 ::selection {
   background: rgba(166, 175, 189, .3)
 }
+
+
 * {
   -webkit-font-smoothing: antialiased;
   -moz-os-font-smoothing: grayscale;
@@ -358,7 +360,7 @@ header .dropdown-menu {
   padding: 0 20px;
   height: 85px;
   z-index: 99999;
-  border-bottom: 1px solid rgba(255, 255, 255, .1)
+  /* border-bottom: 1px solid rgba(255, 255, 255, .1) */
 }
 .fa-ani {
   margin-left: 5px;
@@ -375,11 +377,11 @@ header .dropdown-menu {
   justify-content: space-between;
   width: 100%
 }
-.right-bddr {
+/* .right-bddr {
   border-right: 1px solid rgba(255, 255, 255, .1);
   padding: 0 10px 0 0 !important;
   margin: 0 20px 0 0
-}
+} */
 .custom-nav .sbmenu>a::before {
   content: "+";
   position: absolute;
@@ -4396,10 +4398,12 @@ h3 a {
   -webkit-text-stroke: 1px #e8e8e8;
   -webkit-text-fill-color: #fff
 }
+/* Change this for background */
 .business-startup {
-  background: url(../images/hero/wave-hero.svg);
+  /* background: url(../images/hero/wave-hero.svg); */
+  background: url(../images/hero/Untitled-1.png); 
   background-repeat: no-repeat;
-  background-position: center top
+  background-position: center top;
 }
 .bg-light-ylo {
   background: #e9f5ff
