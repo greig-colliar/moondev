@@ -4401,9 +4401,10 @@ h3 a {
 /* Change this for background */
 .business-startup {
   /* background: url(../images/hero/wave-hero.svg); */
-  background: url(../images/hero/Untitled-1.png); 
+  background: url(../images/hero/moondev_landingpage_lightmode_01.png); 
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center ;
+  display: block;
 }
 .bg-light-ylo {
   background: #e9f5ff
