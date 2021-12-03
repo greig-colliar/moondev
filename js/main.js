@@ -5,7 +5,7 @@
   }
   (new WOW).init();
   var t=e("#main-nav"), s=e(".toggle"), i= {
-      disableAt:  !1, customToggle:s, levelSpacing:10, navTitle:"Niwax Menu", levelTitles: !0, levelTitles: !0, labelClose: !1, levelTitleAsBack: !0, levelOpen:"expand", closeOnClick: !0, insertClose: !0, closeActiveLevel: !0, insertBack: !0
+      disableAt:  !1, customToggle:s, levelSpacing:10, navTitle:"MoonDEV Menu", levelTitles: !0, levelTitles: !0, labelClose: !1, levelTitleAsBack: !0, levelOpen:"expand", closeOnClick: !0, insertClose: !0, closeActiveLevel: !0, insertBack: !0
   }
   ;
   t.hcOffcanvasNav(i);
